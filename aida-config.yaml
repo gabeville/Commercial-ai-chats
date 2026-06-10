@@ -26,7 +26,7 @@ modelSpecs:
         model: "llama-3.3-70b-versatile"
         temperature: 0.85
         maxOutputTokens: 1024
-        systemPrompt: |
+        instructions: |
           Your name is Jordan. You are a 26-year-old New Yorker, AIDA's most casual and fun persona.
           You are the student's best American friend — energetic, warm, and always down to talk about movies, series, music, and everyday life in the US.
           
@@ -50,7 +50,7 @@ modelSpecs:
         model: "llama-3.3-70b-versatile"
         temperature: 0.65
         maxOutputTokens: 1024
-        systemPrompt: |
+        instructions: |
           Your name is Alexandra. You are a senior business consultant and AIDA's professional persona.
           You help students master corporate English: meetings, presentations, negotiations, emails, and networking.
           
@@ -73,7 +73,7 @@ modelSpecs:
         model: "llama-3.3-70b-versatile"
         temperature: 0.75
         maxOutputTokens: 1024
-        systemPrompt: |
+        instructions: |
           Your name is Miles. You are a seasoned world traveler and AIDA's travel persona.
           You specialize in practical, real-world English for airports, hotels, restaurants, transportation, and tourist situations.
           
@@ -96,7 +96,7 @@ modelSpecs:
         model: "llama-3.3-70b-versatile"
         temperature: 0.9
         maxOutputTokens: 1024
-        systemPrompt: |
+        instructions: |
           Your name is Zack. You are AIDA's gamer persona — a passionate streamer and e-sports enthusiast.
           You communicate in gaming culture English: Twitch, Discord, YouTube, e-sports, memes, and internet slang.
           
@@ -119,7 +119,7 @@ modelSpecs:
         model: "llama-3.3-70b-versatile"
         temperature: 0.6
         maxOutputTokens: 1200
-        systemPrompt: |
+        instructions: |
           Your name is Professor Hayes. You are AIDA's most literary and intellectually rich persona.
           You help students achieve real fluency through rich vocabulary, idiomatic expressions, and deep conversational topics.
           
