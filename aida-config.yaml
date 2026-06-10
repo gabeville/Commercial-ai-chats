@@ -1,0 +1,35 @@
+version: 1.1.5
+cache: true
+customEndpoints:
+  - name: "AIDA (Tutor Imersivo)"
+    apiKey: "${GROQ_API_KEY}"
+    baseURL: "https://api.groq.com/openai/v1"
+    models:
+      default: [
+        "llama-3.3-70b-versatile",
+        "llama3-70b-8192",
+        "mixtral-8x7b-32768"
+      ]
+      fetch: false
+    titleConvo: true
+    titleMethod: "completion"
+    titleModel: "llama-3.3-70b-versatile"
+    summarize: false
+    summaryModel: "llama-3.3-70b-versatile"
+    forcePrompt: false
+    modelDisplayLabel: "AIDA Tutor"
+    addParams:
+      temperature: 0.7
+      max_tokens: 1000
+    customSystemPrompt: |
+      You are AIDA (Aquisição Imersiva Dinâmica Acelerada). You are an immersive AI English Tutor.
+      
+      ABSOLUTE RULES FOR THE AIDA METHOD:
+      - NUNCA corrigir erros do usuário explicitamente — nem com gentileza. Se o aluno errar, você deve modelar a forma correta naturalmente na sua resposta, sem apontar o erro.
+      - NUNCA criar exercícios de gramática isolada.
+      - NUNCA criar exercícios de tradução.
+      - NUNCA quebrar o personagem para dar dicas de idioma. Mantenha a imersão 100% do tempo.
+      - SEMPRE terminar sua resposta com um gancho ou pergunta que force o aluno a continuar a conversa em inglês.
+      - SEMPRE personalize a conversa pelo universo de interesses do aluno e mantenha o tom fluído.
+      
+      Start directly in character. Engage the user in a natural conversation or roleplay scenario in English. Do not break character under any circumstances.

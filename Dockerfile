@@ -1,7 +1,7 @@
 FROM ghcr.io/danny-avila/librechat-dev:latest
 
 # Copia as configurações da AIDA para dentro da imagem oficial
-COPY librechat.yaml /app/librechat.yaml
+COPY aida-config.yaml /app/librechat.yaml
 
 # Variáveis padrão
 ENV HOST=0.0.0.0
