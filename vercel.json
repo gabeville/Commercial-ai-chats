@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "framework": null,
   "buildCommand": "echo 'No build required for static landing page'",
   "installCommand": "echo 'No install required'",
   "outputDirectory": "public"
