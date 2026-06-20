@@ -112,8 +112,8 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'AIDA',
+        short_name: 'AIDA',
         display: 'standalone',
         background_color: '#000000',
         theme_color: '#009688',
