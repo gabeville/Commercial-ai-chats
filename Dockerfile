@@ -51,7 +51,7 @@ if (fs.existsSync(assetsDir)) {\
       let content = fs.readFileSync(filePath, 'utf8');\
       if (content.includes('\"LibreChat\"') || content.includes(\"'LibreChat'\")) {\
         content = content.replace(/\"LibreChat\"/g, '\"AIDA\"');\
-        content = content.replace(/'LibreChat'/g, '\\\'AIDA\\\'');\
+        content = content.replace(/'LibreChat'/g, \"'AIDA'\");\
         fs.writeFileSync(filePath, content);\
       }\
     }\
