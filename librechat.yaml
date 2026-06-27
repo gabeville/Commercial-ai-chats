@@ -11,9 +11,9 @@ interface:
   parameters: false
   modelSelect: false
 
-registration:
-  socialLogins: []
-  allowedDomains: []
+# registration:
+#   socialLogins: []
+#   allowedDomains: []
 
 endpoints:
   custom:
